@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/4b2c92611c.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Find | Kakao Clone</title>
   </head>
   <body>
@@ -16,12 +17,13 @@
       <div class="status-bar__column">
         <span class="status-bar__clock">13:56</span>
       </div>
-      <div class="status-bar__column"></div>
-      <i class="fas fa-volume-mute"></i>
-      <i class="fas fa-clock"></i>
-      <i class="fas fa-wifi"></i>
-      <span class="status-bar__battery-level">100%</span>
-      <i class="fas fa-battery-full"></i>
+      <div class="status-bar__column">
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
     </div>
 
     <!-- Header -->
@@ -43,7 +45,7 @@
     <main class="friends">
       <!-- friend header -->
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
+        <div class="friends__friend friend">
           <div class="friend__column">
             <img
               src="images/friend_default.jpg"
@@ -70,7 +72,7 @@
             <img
               src="images/friend_default.jpg"
               alt="images/friend_default"
-              class="g-avatar friend__avatar"
+              class="avatar friend__avatar"
             />
             <div class="friend__content">
               <span class="friend__name">
@@ -89,7 +91,7 @@
             <img
               src="images/friend_default.jpg"
               alt="images/friend_default"
-              class="g-avatar friend__avatar"
+              class="avatar friend__avatar"
             />
             <div class="friend__content">
               <span class="friend__name">
@@ -104,8 +106,8 @@
             <div class="friend__now-listening">
               <span>
                 Sweet - Jeong Hyeon Park
+                <i class="fas fa-play"></i>
               </span>
-              <i class="fas fa-play"></i>
             </div>
           </div>
         </li>
